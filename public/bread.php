@@ -17,7 +17,7 @@ Fine-Choice-Shopping-Mart
 </head> 
 <body>
 
-<?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "welhead.php") ?>
 <?php
 if(isset($_GET['id'])){
     $query = query("SELECT * FROM categories WHERE cat_id = " . escape_string($_GET['id']) . " ");
@@ -48,7 +48,7 @@ if(isset($_GET['id'])){
                     Supporting small business
                    <br>Out For Delivery<br>
                     Working at Fine-Choice-Shopping-Mart
-                    <a href="aboutus.html">Read More</a>
+                    <a href="aboutus.php">Read More</a>
                 </p>
             </div>
         </div>
